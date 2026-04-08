@@ -1,0 +1,49 @@
+body
+{
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, skyblue, lightblue);
+    text-align: center;
+}
+.container
+{
+    margin-top: 100px;
+}
+h1
+{
+    color: white;
+}
+.search-box
+{
+    margin: 20px;
+}
+input
+{
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+button
+{
+    padding: 10px 15px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover
+{
+    background: darkblue;
+}
+.weather-card
+{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    display: none;
+}
